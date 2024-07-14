@@ -1,0 +1,12 @@
+1 Creating table users:
+  CREATE TABLE `hosteldb`.`users` ( `name` VARCHAR(20) NOT NULL , `phno` INT(10) NOT NULL , `email` VARCHAR(30) NOT NULL , `userid` VARCHAR(20) NOT NULL , `password` VARCHAR(20) NOT NULL , `gender` VARCHAR(10) NOT NULL , PRIMARY KEY (`userid`(20))) ENGINE = InnoDB;
+2 Creating table admin
+  CREATE TABLE `hosteldb`.`admin` ( `Name` VARCHAR(20) NOT NULL ,  `userid` VARCHAR(20) NOT NULL ,  `password` VARCHAR(20) NOT NULL ,  `phno` BIGINT(10) NOT NULL ,  `email` VARCHAR(30) NOT NULL ,    PRIMARY KEY  (`userid`(20))) ENGINE = InnoDB;
+3 Creatin table supervisior
+  CREATE TABLE `hosteldb`.`supervisior` ( `name` VARCHAR(20) NOT NULL , `worksin` VARCHAR(30) NOT NULL , `hostelcode` VARCHAR(5) NOT NULL , `poition` VARCHAR(15) NOT NULL , `salary` FLOAT(20) NOT NULL , `address` VARCHAR(80) NOT NULL , `phno` BIGINT(10) NOT NULL , `email` VARCHAR(30) NOT NULL , `userid` VARCHAR(20) NOT NULL , `password` VARCHAR(20) NOT NULL , PRIMARY KEY (`userid`(20))) ENGINE = InnoDB;
+4 Creating table gaurdian_details
+  CREATE TABLE `hosteldb`.`gaurdian_details` ( `app_no` INT(11) NOT NULL , `father_name` VARCHAR(20) NOT NULL , `mother_name` VARCHAR(20) NOT NULL , `gaurdian_name` VARCHAR(20) NOT NULL , `f_phno` BIGINT(10) NOT NULL , `alt_phno` BIGINT(10) NOT NULL , `email` VARCHAR(30) NOT NULL , `address` VARCHAR(100) NOT NULL , PRIMARY KEY (`app_no`(11))) ENGINE = InnoDB;
+5 Creating table hostel
+  CREATE TABLE `hosteldb`.`hostel` ( `name` VARCHAR(50) NOT NULL ,  `code` VARCHAR(3) NOT NULL ,  `location` TEXT NOT NULL ,  `capacity` INT(5) NOT NULL ,  `vacancy` INT(5) NOT NULL ,  `warden` VARCHAR(20) NOT NULL ,  `phno` BIGINT(10) NOT NULL ,  `email` VARCHAR(30) NOT NULL ,  `type` TEXT NOT NULL ,  `image` BLOB NOT NULL ,    PRIMARY KEY  (`code`(3))) ENGINE = InnoDB;
+6 Creating table application
+  

@@ -1,0 +1,40 @@
+body{
+    /* # background:linear-gradient(rgba(255,255,255,0.5),rgba(0,0,0,0.5)); */
+     max-height: 100vh;
+     background-image: url(images/hostel1.jpg);
+ }
+ .container{
+     width: 40vw;
+     min-width: 280px ;
+     margin: 20vh auto;
+     border: 5px solid rgb(27, 28, 24);
+     border-radius: 25px;
+     font-family:"source sans pro", sans-serif;
+     background-color:rgba(0,255,0,0.5);
+ }
+ .container h3{
+     color: orangered;
+     font-size: 28px;
+     text-align: center;
+     margin-bottom: 20px;
+ }
+ .container input{
+     font-size: 24px;
+     margin: 10px;
+     padding-left: 10px;
+     min-width: 200px;
+     width: 90%;
+     border-radius: 5px;
+ }
+ .submit{
+     background-color:blue;
+     color:white;
+ }
+.header{
+    margin-top:0px;
+    border-radius: 7px;
+    background-color: blue;
+    text-align: center;
+    padding: 10px;
+    color:yellow;
+}
